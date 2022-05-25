@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pet&Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/ffa2cc7abd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link type="image/svg" sizes="16x16" rel="icon" href="favicon.svg">
+</head>
+<body>
+  <header>
+    <img class="brand-name" src=logo-colored.svg alt="logo">
+    <div class="k" id="k" tabindex="0">
+        <nav>
+            <ul onclick="myFunction(event)">
+                <li><a href="index.html" class="inactiv">Home</a></li>
+                <li><a href="sobre.html" class="inactiv">Sobre</a></li>
+                <li><a href="produtos.html" class="inactiv">Produtos</a></li>
+                <li><a href="servicos.html" class="inactiv">Serviços</a></li>
+                <li><a href="faleconosco.html" class="activ">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="javs.js"></script>
+  </header>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>Fale conosco</h1>
+  <form>
+    <label for="name">Nome:</label>
+    <input class="form-item" type="text" id="name" name="name" placeholder="Nome">
+    <label for="email">E-mail:</label>
+    <input class="form-item" type="email" id="email" name="email" placeholder="E-mail">
+    <label for="phone">Telefone:</label>
+    <input class="form-item" type="tel" id="phone" name="phone" placeholder="Telefone">
+    <label for="product">Produto:</label>
+    <select class="form-item" id="product" name="product">
+      <option value="blocos-ceramicos">Blocos cerâmicos</option>
+      <option value="lajes">Lajes</option>
+      <option value="artefatos-de-concreto">Artefatos de concreto</option>
+      <option value="estruturas-pre-moldadas">Estruturas pré-moldadas</option>
+    </select>
+    <label for="attachments">Anexos:</label>
+    <input class="form-item" type="file" id="attachments" name="attachments">
+    <label for="message">Mensagem:</label>
+    <textarea class="form-item" id="message" name="message" rows="5" placeholder="Mensagem"></textarea>
+    <input class="form-item" type="submit" value="Enviar">
+  </form>
+  <footer>
+    <div id="contato">
+      <img class="brand-name" src=logo-white.svg alt="logo">
+      <br>
+    <h3>Contato</h3>
+    <address>
+      Estrada sem nome, 1234, Sala 0<br/>
+      Bairro - Cidade / UF<br/>
+      12345-678<br/>
+      (00) 99999-9999<br/>
+      contato@petshop.com.br<br/>
+    </address>
+    </div>
+    <div id="horario">
+    <h3>Contato</h3>
+    De Segunda a Sexta-feira das 9 às 19hs.<br/>
+    Aos Sábados das 9 às 18hs.<br/>
+    </div>
+    <div id="siganos">
+    <h3>Siga-nos</h3>
+    </div>
+    <br/>
+    <span>©2022 pet&shop | Todos os direitos reservados. Desenvolvido por <b>Crie_TI</b></span>
+  </footer>
+</body>
+</html>
+  
